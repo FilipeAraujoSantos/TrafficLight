@@ -47,7 +47,7 @@ class Semaforo(var farolRuaA: Farol, var farolRuaB: Farol) {
     }
 
     private fun alterarRuaAberta(rua: String): String {
-        return if (rua == "A") "A" else "B"
+        return if (rua == "A") "B" else "A"
     }
 
 }
